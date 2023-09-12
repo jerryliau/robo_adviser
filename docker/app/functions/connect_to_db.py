@@ -3,9 +3,9 @@ import pymysql
 class SQLcommand:
   conn = pymysql.connect(
     host = 'db',
-    database = 'database',
-    user = 'user',
-    password = 'passwd',
+    database = 'chi101',
+    user = 'chi101',
+    password = 'chi101',
     charset = 'utf8mb4'
   )
 
